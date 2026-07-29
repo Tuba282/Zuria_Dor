@@ -1,6 +1,7 @@
 const Container = ({children}) => {
     return (
-        <div className="flex flex-col flex-1 items-center justify-center">
+        <div className="w-full min-w-[300px] max-w-[1550px] mx-auto">
+            
             {children}
         </div>
     );
